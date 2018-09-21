@@ -15,4 +15,11 @@ public class TstImpostoDeRenda {
 		assertEquals(25.15, aplicacao.obterImpostoDeRenda(), 0);
 	}
 	
+	@Test
+	public void testImpostoDeRendaDois() {
+		Aplicacao aplicacao = Aplicacao.criarAplicacao(390, 100.00f, 7.5f);
+		
+		assertEquals(1.40, aplicacao.obterImpostoDeRenda(), 0);
+	}
+	
 }
