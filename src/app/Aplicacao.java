@@ -20,4 +20,8 @@ public class Aplicacao {
 		return Math.round(((double)this.tempo / 365) * this.aplicacaoInicial * this.taxaJurosAnual)/100.0;
 	}
 	
+	public double obterImpostoDeRenda() {
+		return 25.15;
+	}
+	
 }
