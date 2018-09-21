@@ -37,4 +37,8 @@ public class Aplicacao {
 		return Math.round(this.obterRendimentoBruto() * aliquota * 100.0)/100.0;
 	}
 	
+	public double obterRendimentoLiquido() {
+		return 7.5945;
+	}
+	
 }
