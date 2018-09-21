@@ -14,4 +14,11 @@ public class TstRendimentoBruto {
 		
 		assertEquals(13.97, aplicacao.obterRendimentoBruto(), 0);
 	}
+	
+	@Test
+	public void testRendimentoBrutoDois() {
+		Aplicacao aplicacao = Aplicacao.criarAplicacao(120, 500.00f, 8.0f);
+		
+		assertEquals(13.15, aplicacao.obterRendimentoBruto(), 0);
+	}
 }
