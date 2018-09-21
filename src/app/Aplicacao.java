@@ -17,7 +17,7 @@ public class Aplicacao {
 	}
 	
 	public double obterRendimentoBruto() {
-		return 13.97;
+		return Math.round(((double)this.tempo / 365) * this.aplicacaoInicial * this.taxaJurosAnual)/100.0;
 	}
 	
 }
