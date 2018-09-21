@@ -15,4 +15,11 @@ public class TstRendimentoLiquido {
 		assertEquals(7.5945, aplicacao.obterRendimentoLiquido(), 0);
 	}
 	
+	@Test
+	public void testRendimentoLiquidoDois() {
+		Aplicacao aplicacao = Aplicacao.criarAplicacao(550, 400.00f, 8.0f);
+		
+		assertEquals(9.9452, aplicacao.obterRendimentoLiquido(), 0);
+	}
+	
 }
