@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import app.Aplicacao;
+
 public class TstRendimentoBruto {
 	
 	@Test
